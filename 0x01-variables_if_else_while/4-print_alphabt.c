@@ -1,3 +1,9 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  * this main function print the alphapt from a to z except q and e

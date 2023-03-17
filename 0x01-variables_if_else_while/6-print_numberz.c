@@ -12,11 +12,9 @@
 int main(void)
 {
 int i;
-char num = '0';
-for(i=0; i < 10; ++i)
+for(i=48; i < 58; ++i)
 {
-putchar(num);
-num++;
+putchar(i);
 }
 putchar('\n');
 return (0);

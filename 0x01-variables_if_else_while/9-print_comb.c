@@ -6,17 +6,17 @@
 /**
  * main - Entry point
  * this main function prints all possible combinations of single-digit numbers.
- * Return: Always an output messaage then  0 (success)
+ * Return: Always an output messaage then 0 (success)
  */
 int main(void)
 {
 int i;
-for(i=48; i < 58; ++i)
+for(i = 48; i < 58; ++i)
 {
 putchar(i);
 if (i < 57)
 {
-putchar(','); 
+putchar(',');
 putchar(' ');
 }
 }

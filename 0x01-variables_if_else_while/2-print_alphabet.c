@@ -19,5 +19,6 @@ for(i=0; i < 26; ++i)
 putchar(c);
 c++;
 }
+putchar('\n');
 return (0);
 }

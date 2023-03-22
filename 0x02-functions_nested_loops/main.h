@@ -23,3 +23,10 @@ void print_alphabet_x10(void);
  * Return: int
  */
 int _islower(int c);
+
+/**
+ * _isalpha - check for an input
+ * @c: as an input sample of type integer
+ * Return: int
+ */
+int _isalpha(int c);

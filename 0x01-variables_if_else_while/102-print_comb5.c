@@ -18,12 +18,8 @@ for (m = 48; m < 58; ++m)
 {
 for (n = 48; n < 58; ++n)
 {
-if (m >= i && n >= j)
+if (m > i || (m == i && n > j))
 {
-if (m == i && n == j)
-{
-continue;
-}
 putchar(i);
 putchar(j);
 putchar(' ');

@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Return: Always an output messaage then  0 (Success)
+ * Return: print alphaet from a to z
  */
 void print_alphabet(void)
 {

@@ -12,7 +12,14 @@ for (j = 0; j < 10; ++j)
 {
 if (j < 9)
 {
+if (i * (j + 1) >= 10)
+{
 printf("%d, ", i * j);
+}
+else
+{
+printf("%d,  ", i * j);
+}
 }
 else
 {

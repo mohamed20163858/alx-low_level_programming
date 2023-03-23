@@ -61,3 +61,8 @@ void print_square(int size);
  * @size: the input value
  */
 void print_triangle(int size);
+/**
+ * print_number - prints any given number as a char
+ *@n: the input value to be printed
+ */
+void print_number(int n);

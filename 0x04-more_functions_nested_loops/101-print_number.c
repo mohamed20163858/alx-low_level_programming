@@ -11,8 +11,13 @@ x = n;
 count = 1;
 if (n < 0)
 {
-putchar('-');
+_putchar('-');
 n = n * -1;
+}
+if (n == 0)
+{
+_putchar('0');
+return;
 }
 while (x)
 {
@@ -24,8 +29,7 @@ while (count != 1)
 {
 count /= 10;
 x =  x / count;
-putchar(x + 48);
+_putchar(x + 48);
 x = n % count;
 }
-putchar('\n');
 }

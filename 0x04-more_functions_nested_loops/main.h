@@ -35,3 +35,7 @@ void print_numbers(void);
  * except 2 and 4 followed by new line
  */
 void print_most_numbers(void);
+/**
+ * more_numbers - prints numbers from 0 to 14 ten times 
+ */
+void more_numbers(void);

@@ -49,3 +49,9 @@ void print_line(int n);
  * @n: the input value
  */
 void print_diagonal(int n);
+/**
+ * print_square - draw a square using character # using the 
+ * giving input size
+ * @size: the input value
+ */
+void print_square(int size);

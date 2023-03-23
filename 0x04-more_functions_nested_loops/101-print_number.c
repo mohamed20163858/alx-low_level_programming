@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include "main.h"
 /**
  * print_number - prints any given number as a char
@@ -7,9 +6,9 @@
  */
 void print_number(int n)
 {
-int x, num, count, i;
+int x, count;
 x = n;
-count = 0;
+count = 1;
 if (n < 0)
 {
 putchar('-');
@@ -18,15 +17,15 @@ n = n * -1;
 while (x)
 {
 x = x / 10;
-count++;
+count *= 10;
 }
 x = n;
-for (i = count - 1; i >= 0; --i)
+while (count != 1)
 {
-num = (int) pow(10, i);
-x =  x / num;
-_putchar(x + 48);
-x = n % num;
+count /= 10;
+x =  x / count;
+putchar(x + 48);
+x = n % count;
 }
-_putchar('\n');
+putchar('\n');
 }

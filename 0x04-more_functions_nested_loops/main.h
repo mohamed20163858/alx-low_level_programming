@@ -17,3 +17,16 @@ int _isdigit(int c);
  * Return: return the multiplication of the given two values
  */
 int mul(int a, int b);
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and error is set appropriately.
+ */
+
+int _putchar(char c);
+/**
+ * print_numbers - prints numbers from 0 to 9 followed by new line
+ */
+void print_numbers(void);

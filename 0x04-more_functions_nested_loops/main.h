@@ -30,3 +30,8 @@ int _putchar(char c);
  * print_numbers - prints numbers from 0 to 9 followed by new line
  */
 void print_numbers(void);
+/**
+ * print_most_numbers - prints numbers from 0 to 9 
+ * except 2 and 4 followed by new line
+ */
+void print_most_numbers(void);

@@ -39,3 +39,8 @@ void print_most_numbers(void);
  * more_numbers - prints numbers from 0 to 14 ten times 
  */
 void more_numbers(void);
+/**
+ * print_line - print _ n of times equal to the given input value
+ * @n: the input value
+ */
+void print_line(int n);

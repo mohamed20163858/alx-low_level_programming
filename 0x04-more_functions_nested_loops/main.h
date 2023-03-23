@@ -4,3 +4,9 @@
  * Return: 1 if the given char is upper and 0 otherwise
  */
 int _isupper(int c);
+/**
+ * _isdigit - check if the given character is digit or not
+ * @c: the input parameter
+ * Return: 1 if the given input is digit and 0 otherwise
+ */
+int _isdigit(int c);

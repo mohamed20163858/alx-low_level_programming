@@ -44,3 +44,8 @@ void more_numbers(void);
  * @n: the input value
  */
 void print_line(int n);
+/**
+ * print_diagonal - print \ n of times diagonally equal to the given input value
+ * @n: the input value
+ */
+void print_diagonal(int n);

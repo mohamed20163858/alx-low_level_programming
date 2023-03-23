@@ -7,7 +7,7 @@ int main(void)
 {
 int i;
 long int fi, fi_plus_1, temp;
-long fi_part_1, fi_part_2, fi_plus_1_part_1
+long fi_part_1, fi_part_2, fi_plus_1_part_1;
 long fi_plus_1_part_2, overflow, temp_part_2;
 long num = 10000000000;
 fi = 1;

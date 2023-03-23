@@ -6,30 +6,29 @@
  */
 void print_number(int n)
 {
-int x, count;
-x = n;
-count = 1;
-if (n < 0)
-{
-_putchar('-');
-n = n * -1;
-}
-if (n == 0)
-{
-_putchar('0');
-return;
-}
-while (x)
-{
-x = x / 10;
-count *= 10;
-}
-x = n;
-while (count != 1)
-{
-count /= 10;
-x =  x / count;
-_putchar(x + 48);
-x = n % count;
-}
+	unsigned int tens, digit, positive = n;
+	double t_beg = 1;
+
+	if (n == 0)
+		_putchar('0');
+	else
+	{
+		if (n < 0)
+		{
+			positive = n * -1;
+			_putchar('-');
+		}
+
+		while (t_beg <= positive)
+			t_beg *= 10;
+		tens = t_beg / 10;
+
+		while (tens >= 1)
+		{
+			digit = positive / tens;
+			_putchar(digit + '0');
+			positive = (positive - (tens * digit));
+			tens /= 10;
+		}
+	}
 }

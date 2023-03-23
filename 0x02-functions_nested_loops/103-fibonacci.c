@@ -20,10 +20,9 @@ sum += fi;
 }
 if (fi_plus_1 > 4000000)
 {
-printf("%d\n", sum);
+printf("%ld\n", sum);
 break;
 }
 }
-printf("\n");
 return (0);
 }

@@ -55,3 +55,9 @@ void print_diagonal(int n);
  * @size: the input value
  */
 void print_square(int size);
+/**
+ * print_triangle - draw a triangle using character # using the 
+ * giving input size
+ * @size: the input value
+ */
+void print_triangle(int size);

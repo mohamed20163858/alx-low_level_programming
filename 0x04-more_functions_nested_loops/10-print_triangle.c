@@ -5,7 +5,7 @@
  * giving input size
  * @size: the input value
  */
-void print_triangle(int size);
+void print_triangle(int size)
 {
 int i, j, position;
 position = size - 1;

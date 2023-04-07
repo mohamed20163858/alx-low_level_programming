@@ -16,13 +16,9 @@ int _atoi(char *s)
 	flag = 0;
 	while (s[i] != '\0')
 	{
-		if (s[i] == '+')
+		if (s[i] == '-')
 		{
 			sign++;
-		}
-		else if (s[i] == '-')
-		{
-			sign--;
 		}
 		if (s[i] >= '0' && s[i] <= '9')
 		{
@@ -38,7 +34,7 @@ int _atoi(char *s)
 		}
 		i++;
 	}
-	if (sign < 0)
+	if (sign % 2 != 0)
 	{
 		number = number * -1;
 	}

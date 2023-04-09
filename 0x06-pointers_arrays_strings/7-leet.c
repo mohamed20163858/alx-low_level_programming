@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * leet - encode string into 1337 leet
+ * @s: string to manipulate
+ * Return: string
+ */
 char *leet(char *a)
 {
     int i;

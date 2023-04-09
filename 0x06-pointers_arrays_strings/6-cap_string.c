@@ -14,6 +14,10 @@ char *cap_string(char *a)
 
 	i = 0;
 	n = sizeof(arr) / sizeof(char);
+	if (a[0] >= 'a' && a[0] <= 'z')
+	{
+		a[0] -= 32;
+	}
 	while (a[i] != '\0')
 	{
 		for (j = 0; j < n; ++j)
